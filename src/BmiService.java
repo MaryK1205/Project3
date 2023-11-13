@@ -3,5 +3,4 @@ public class BmiService {
         double index = weightKg / (heightMetr * heightMetr);
         return (int) index;
     }
-
 }
